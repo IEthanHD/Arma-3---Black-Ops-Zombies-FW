@@ -1,0 +1,29 @@
+/**
+ * Copyright © 2018 Ethan OHara, IEthanHD.
+ * All Rights Reserved.
+ */
+
+
+
+ //--- Define Sounds
+ class CfgSounds {
+	sounds[] = {};
+	class zomb1
+	{
+		name = "zomb1";
+		sound[] = {"\Media\SFX\zomb1.ogg", 1, 1};
+		titles[] = {};
+	};
+	class zomb2
+	{
+		name = "zomb2";
+		sound[] = {"\Media\SFX\zomb2.ogg", 1, 1};
+		titles[] = {};
+	};
+	class zomb3
+	{
+		name = "zomb3";
+		sound[] = {"\Media\SFX\zomb3.ogg", 1, 1};
+		titles[] = {};
+	};
+};
