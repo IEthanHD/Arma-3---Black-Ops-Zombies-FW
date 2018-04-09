@@ -3,7 +3,24 @@
  * All Rights Reserved.
  */
 
+//--- Game Info
+class Header
+{
+	gameType =  CTF; // Game type
+	minPlayers =  1; // minimum number of players the mission supports
+	maxPlayers = 4; // maximum number of players the mission supports
+};
 
+//--- Mission Details
+author	= "IEthanHD";
+OnLoadName	= "Black Ops Zombies";
+OnLoadMission = "Thhs mission was inspired by call of duty zombies..";
+//loadScreen	= "images\loadScreen.paa";
+
+//--- Death Handling
+respawnButton = 0; // 0: disabled - 1: enabled. Default: 1
+respawnDelay = 45; // Default: ?
+respawnOnStart = -1; // Default: ?
 
  //--- Define Sounds
  class CfgSounds {
