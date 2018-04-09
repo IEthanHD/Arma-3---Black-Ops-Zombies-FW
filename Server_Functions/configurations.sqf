@@ -32,9 +32,9 @@ markerdist = 600;  //distance from markers where zombies spawn/despawn
 SideZMB = createCenter civilian;
 groupZMB = createGroup civilian;
 sleep 0.1;
-fncZcontact = compile preprocessFile "zombie\fnc_Zcontact.sqf";
-fncZproximity = compile preprocessFile "zombie\fnc_ZProximity.sqf";
-fncZMarkers = compile preprocessFile "zombie\fnc_ZMarkers.sqf";
+fncZcontact = compile preprocessFile "Server_Functions\Zombies\fnc_Zcontact.sqf";
+fncZproximity = compile preprocessFile "Server_Functions\Zombies\fnc_ZProximity.sqf";
+fncZMarkers = compile preprocessFile "Server_Functions\Zombies\fnc_ZMarkers.sqf";
 zarray=[];
 
 if (count zombiemkr > 0) then
