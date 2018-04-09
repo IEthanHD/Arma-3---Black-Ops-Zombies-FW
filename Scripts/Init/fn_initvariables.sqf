@@ -14,3 +14,4 @@ Player_Money = 500;
 
 //--- Server Variables
 TGH_PlayerAlive = true;
+TGH_GameRound = 1;
