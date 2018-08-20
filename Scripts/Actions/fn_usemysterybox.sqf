@@ -12,7 +12,7 @@ params [
 _mysterybox setVariable ["inuse", player, false];
 
 //--- Action
-if ([7 + random 7, "Collecting Reward", nil, {!isNull _this && {player distance _this < 4} _mysterybox] call life_fnc_action) then {
+if ([7 + random 7, "Collecting Reward", nil, {!isNull _this && {player distance _this < 4} _mysterybox]) then {
   
   //--- Set winner
   _mysterybox setVariable ["inuse", player, true];
